@@ -2,7 +2,7 @@
 
 This is an admin profile dashboard created by React.js
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
