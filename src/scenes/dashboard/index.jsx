@@ -1,9 +1,23 @@
 import React from 'react'
+import Header from '../../components/Header'
+import { Box } from '@mui/material'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <Box
+      m="20px"
+    >
+      <Box
+        display="flex"
+        justifyContent="space-between"
+        alignItems="center"
+      >
 
-export default Dashboard
+        <Header title="Dashboard" subtitle="Welcome to Your Dashboard !!"/>
+
+      </Box>
+    </Box>
+  );
+};
+
+export default Dashboard;
