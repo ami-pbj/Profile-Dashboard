@@ -53,7 +53,7 @@ const Form = () => {
           handleChange,
           handleSubmit,
         }) => (
-          <form>
+          <form onSubmit={handleSubmit}>
             <Box
               display="grid"
               gap="30px"
