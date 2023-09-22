@@ -5,7 +5,6 @@ import GeographyChart from "../../components/GeographyChart";
 import { tokens } from "../../theme";
 
 const Geography = () => {
-
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 

@@ -34,7 +34,10 @@ const Contacts = () => {
 
   return (
     <Box m="20px">
-      <Header title="CONTACTS" subtitle="List of Contacts for Future Reference" />
+      <Header
+        title="CONTACTS"
+        subtitle="List of Contacts for Future Reference"
+      />
       <Box
         m="40px 0 0 0"
         height="75vh"
@@ -61,12 +64,12 @@ const Contacts = () => {
           },
           "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
             color: `${colors.grey[100]} !important`,
-          }
+          },
         }}
       >
         <DataGrid
-          rows={mockDataContacts} 
-          columns={columns} 
+          rows={mockDataContacts}
+          columns={columns}
           components={{ Toolbar: GridToolbar }}
         />
       </Box>
