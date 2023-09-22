@@ -14,6 +14,7 @@ import Bar from "./scenes/bar";
 import Pie from "./scenes/pie";
 import Line from "./scenes/line";
 import Geography from "./scenes/geography";
+import Footer from "./scenes/global/Footer";
 
 
 
@@ -44,6 +45,7 @@ function App() {
                 <Route path="/line" element={<Line />}/>
                 <Route path="/geography" element={<Geography />}/>
               </Routes>
+              <Footer/>
             </main>
           </div>
       </ThemeProvider>
