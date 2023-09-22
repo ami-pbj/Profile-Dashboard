@@ -3,7 +3,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Box>Footer</Box>
+    <Box display="flex" alignItems="center" justifyContent="center" alignContent="center">
+      This is Footer Section
+    </Box>
   )
 }
 
