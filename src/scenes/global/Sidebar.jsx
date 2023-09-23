@@ -101,7 +101,7 @@ const Sidebar = () => {
                   alt="admin-profile"
                   width="100px"
                   height="100px"
-                  src={`../../assets/pbj.png`}
+                  src={`../../pbj.png`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
